@@ -1,5 +1,11 @@
 //Onderstaande code is niet perse de beste implementatie er van
 //Maar is om te demonstreren hoe je dit probleem stapsgewijs op KAN pakken.
+//TODO:
+//Verbeterpunten:
+// - De methode kan beter naar de class Game worden verplaatst
+// - De kaart moet worden verwijderd zodra deze is gekozen
+// - Een check schrijven of er uberhaupt kaarten zijn om te kiezen
+
 class Game{
     //Een array met kaarten
     deck = ["koning","Koningin","Joker","7","8"];
